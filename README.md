@@ -52,7 +52,7 @@ Ensure the distributionManagement section in pom.xml points to your organization
 ### 5. Use in Projects:
 Add this dependency to your application pom.xml
 
-```
+```bash
 <groupId>{orgId}</groupId>
 <artifactId>mule-hashicorp-vault</artifactId>
 <version>1.0.0</version>
