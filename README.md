@@ -59,16 +59,16 @@ Add this dependency to your application pom.xml
 <classifier>mule-plugin</classifier>
 ```
 ### Author
-Mehak Garg
+**Mehak Garg**
 Certified in:
-MuleSoft Certified Integration Architect
-MuleSoft Certified Platform Architect
-MuleSoft Certified Developer Level 1
-MuleSoft Certified Developer Level 2
-Boomi Associate Integration Developer
-Salesforce AI Associate
-Salesforce AI Specialist
-Workato Automation Pro I
+*MuleSoft Certified Integration Architect*
+*MuleSoft Certified Platform Architect*
+*MuleSoft Certified Developer Level 1*
+*MuleSoft Certified Developer Level 2*
+*Boomi Associate Integration Developer*
+*Salesforce AI Associate*
+*Salesforce AI Specialist*
+*Workato Automation Pro I*
 
 🔗 Connect with me on LinkedIn https://www.linkedin.com/in/mehakgarg911
 
