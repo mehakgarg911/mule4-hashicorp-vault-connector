@@ -52,23 +52,23 @@ Ensure the distributionManagement section in pom.xml points to your organization
 ### 5. Use in Projects:
 Add this dependency to your application pom.xml
 
-```
+```bash
 <groupId>{orgId}</groupId>
 <artifactId>mule-hashicorp-vault</artifactId>
 <version>1.0.0</version>
 <classifier>mule-plugin</classifier>
 ```
 ### Author
-Mehak Garg
+**Mehak Garg**
 Certified in:
-MuleSoft Certified Integration Architect
-MuleSoft Certified Platform Architect
-MuleSoft Certified Developer Level 1
-MuleSoft Certified Developer Level 2
-Boomi Associate Integration Developer
-Salesforce AI Associate
-Salesforce AI Specialist
-Workato Automation Pro I
+- *MuleSoft Certified Integration Architect*
+- *MuleSoft Certified Platform Architect*
+- *MuleSoft Certified Developer Level 1*
+- *MuleSoft Certified Developer Level 2*
+- *Boomi Associate Integration Developer*
+- *Salesforce AI Associate*
+- *Salesforce AI Specialist*
+- *Workato Automation Pro I*
 
 🔗 Connect with me on LinkedIn https://www.linkedin.com/in/mehakgarg911
 
