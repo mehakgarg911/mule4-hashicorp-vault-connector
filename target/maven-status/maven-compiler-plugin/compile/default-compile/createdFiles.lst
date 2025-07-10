@@ -1,0 +1,6 @@
+org\mule\extension\mule\hashicorp\vault\internal\HashicorpVaultConfigurationImpl.class
+org\mule\extension\mule\hashicorp\vault\internal\HashicorpConnection.class
+org\mule\extension\mule\hashicorp\vault\internal\HashicorpConnectionProvider.class
+org\mule\extension\mule\hashicorp\vault\internal\ConnectionConfigurations.class
+org\mule\extension\mule\hashicorp\vault\internal\HashicorpOperations.class
+org\mule\extension\mule\hashicorp\vault\internal\HashicorpVaultExtension.class

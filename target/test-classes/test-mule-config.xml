@@ -1,0 +1,19 @@
+<mule xmlns="http://www.mulesoft.org/schema/mule/core"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:mule-hashicorp-vault="http://www.mulesoft.org/schema/mule/mule-hashicorp-vault"
+      xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+          http://www.mulesoft.org/schema/mule/mule-hashicorp-vault http://www.mulesoft.org/schema/mule/mule-hashicorp-vault/current/mule-mule-hashicorp-vault.xsd">
+
+    <mule-hashicorp-vault:config name="config" configId="configId">
+        <mule-hashicorp-vault:connection requiredParameter="aValue" />
+    </mule-hashicorp-vault:config>
+
+    <flow name="sayHiFlow">
+        <mule-hashicorp-vault:say-hi person="Mariano Gonzalez"/>
+    </flow>
+
+    <flow name="retrieveInfoFlow">
+        <mule-hashicorp-vault:retrieve-info config-ref="config"/>
+    </flow>
+
+</mule>
